@@ -1,0 +1,628 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pa_warehouse_status']
+[0.222s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pa_warehouse_status'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcc915ed220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcc915ed010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcc915ed010>>)
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.278s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aidan/workspace/irs_ws'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/IRS_2026_group5) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/devices) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/res/pous/programs) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/devices) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-data/test/pous/programs) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/openplc-editor/data) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/warehouse) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/config) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedExtensionVSIXs) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/CachedProfilesData/__default__profile__) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/coder-logs) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.git) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'ros'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['cmake', 'python']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'cmake'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260922T151431/exthost1/vscode.github) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.debugpy) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/ms-python.python) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/output_logging_20260928T015738) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.git) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/code-server/data/logs/20260928T015535/exthost1/vscode.github) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/industrial-robots-and-systems-world/workspace/workspace) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/new_folder) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/pa_warehouse_status) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/IRS_2026_group5/pa_warehouse_status' with type 'ros.ament_python' and name 'pa_warehouse_status'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/IRS_2026_group5/ros2-humble-20260914-linux-centos-amd64.tar.bz2) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'pa_warehouse_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'pa_warehouse_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aidan/workspace/irs_ws/build/pa_warehouse_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aidan/workspace/irs_ws/install/pa_warehouse_status', 'merge_install': False, 'path': '/home/aidan/workspace/irs_ws/src/IRS_2026_group5/pa_warehouse_status', 'symlink_install': False, 'test_result_base': None}
+[0.370s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.376s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aidan/workspace/irs_ws/src/IRS_2026_group5/pa_warehouse_status' with build type 'ament_python'
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('pa_warehouse_status', 'ament_prefix_path')
+[0.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/pa_warehouse_status/hook/ament_prefix_path.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/pa_warehouse_status/hook/ament_prefix_path.sh'
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.673s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.673s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.'
+[0.673s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.730s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.733s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[0.733s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aidan/workspace/irs_ws/install/local_setup.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aidan/workspace/irs_ws/install/_local_setup_util_sh.py'
+[0.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aidan/workspace/irs_ws/install/setup.sh'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aidan/workspace/irs_ws/install/local_setup.bash'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aidan/workspace/irs_ws/install/setup.bash'
+[0.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aidan/workspace/irs_ws/install/local_setup.zsh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aidan/workspace/irs_ws/install/setup.zsh'
