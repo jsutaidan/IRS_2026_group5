@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000130] (pa_warehouse_status) JobQueued: {'identifier': 'pa_warehouse_status', 'dependencies': OrderedDict()}
+[0.000163] (pa_warehouse_status) JobStarted: {'identifier': 'pa_warehouse_status'}
+[0.095996] (-) TimerEvent: {}
+[0.196326] (-) TimerEvent: {}
+[0.296636] (-) TimerEvent: {}
+[0.397010] (-) TimerEvent: {}
+[0.500012] (-) TimerEvent: {}
+[0.600385] (-) TimerEvent: {}
+[0.700636] (-) TimerEvent: {}
+[0.804170] (-) TimerEvent: {}
+[0.905678] (-) TimerEvent: {}
+[1.005976] (-) TimerEvent: {}
+[1.106266] (-) TimerEvent: {}
+[1.113506] (pa_warehouse_status) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/pa_warehouse_status', 'build', '--build-base', '/home/aidan/workspace/irs_ws/build/pa_warehouse_status/build', 'install', '--record', '/home/aidan/workspace/irs_ws/build/pa_warehouse_status/install.log', '--install-scripts', '$base/lib/pa_warehouse_status', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aidan/workspace/irs_ws/src/IRS_2026_group5/pa_warehouse_status', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidan', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aidan', 'OLDPWD': '/home/aidan/workspace/irs_ws/src/IRS_2026_group5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aidan', 'NAME': 'DESKTOP-2CVNRN5', 'WSL_INTEROP': '/run/WSL/3517_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.14.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Aidan/Desktop/New folder/runtime/win64:/mnt/c/Users/Aidan/Desktop/New folder/bin:/mnt/c/Users/Aidan/Desktop/New folder/polyspace/bin:/mnt/c/Users/Aidan/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/Aidan/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Aidan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Aidan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Exercism:/mnt/c/Users/Aidan/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aidan/workspace/irs_ws/build/pa_warehouse_status', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aidan/workspace/irs_ws/build/pa_warehouse_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}), 'shell': False}
+[1.206384] (-) TimerEvent: {}
+[1.306717] (-) TimerEvent: {}
+[1.386258] (pa_warehouse_status) StdoutLine: {'line': b'running egg_info\n'}
+[1.386506] (pa_warehouse_status) StdoutLine: {'line': b'creating ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info\n'}
+[1.406808] (-) TimerEvent: {}
+[1.407030] (pa_warehouse_status) StdoutLine: {'line': b'writing ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/PKG-INFO\n'}
+[1.407425] (pa_warehouse_status) StdoutLine: {'line': b'writing dependency_links to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/dependency_links.txt\n'}
+[1.407582] (pa_warehouse_status) StdoutLine: {'line': b'writing entry points to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/entry_points.txt\n'}
+[1.407739] (pa_warehouse_status) StdoutLine: {'line': b'writing requirements to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/requires.txt\n'}
+[1.407856] (pa_warehouse_status) StdoutLine: {'line': b'writing top-level names to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/top_level.txt\n'}
+[1.407973] (pa_warehouse_status) StdoutLine: {'line': b"writing manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'\n"}
+[1.454309] (pa_warehouse_status) StdoutLine: {'line': b"reading manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'\n"}
+[1.454760] (pa_warehouse_status) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.454938] (pa_warehouse_status) StdoutLine: {'line': b"writing manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'\n"}
+[1.455106] (pa_warehouse_status) StdoutLine: {'line': b'running build\n'}
+[1.455186] (pa_warehouse_status) StdoutLine: {'line': b'running build_py\n'}
+[1.455347] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build\n'}
+[1.462690] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib\n'}
+[1.463019] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status\n'}
+[1.463270] (pa_warehouse_status) StdoutLine: {'line': b'copying pa_warehouse_status/pineapple_gossip_bot.py -> /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status\n'}
+[1.463348] (pa_warehouse_status) StdoutLine: {'line': b'copying pa_warehouse_status/__init__.py -> /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status\n'}
+[1.463402] (pa_warehouse_status) StdoutLine: {'line': b'running install\n'}
+[1.468576] (pa_warehouse_status) StdoutLine: {'line': b'running install_lib\n'}
+[1.490787] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status\n'}
+[1.491001] (pa_warehouse_status) StdoutLine: {'line': b'copying /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status/pineapple_gossip_bot.py -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status\n'}
+[1.491075] (pa_warehouse_status) StdoutLine: {'line': b'copying /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status/__init__.py -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status\n'}
+[1.491425] (pa_warehouse_status) StdoutLine: {'line': b'byte-compiling /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status/pineapple_gossip_bot.py to pineapple_gossip_bot.cpython-312.pyc\n'}
+[1.492197] (pa_warehouse_status) StdoutLine: {'line': b'byte-compiling /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status/__init__.py to __init__.cpython-312.pyc\n'}
+[1.492474] (pa_warehouse_status) StdoutLine: {'line': b'running install_data\n'}
+[1.492675] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index\n'}
+[1.493058] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index\n'}
+[1.493469] (pa_warehouse_status) StdoutLine: {'line': b'creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index/packages\n'}
+[1.493909] (pa_warehouse_status) StdoutLine: {'line': b'copying resource/pa_warehouse_status -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index/packages\n'}
+[1.494077] (pa_warehouse_status) StdoutLine: {'line': b'copying package.xml -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/pa_warehouse_status\n'}
+[1.494317] (pa_warehouse_status) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.506907] (-) TimerEvent: {}
+[1.519171] (pa_warehouse_status) StdoutLine: {'line': b'Copying ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info to /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status-0.0.0-py3.12.egg-info\n'}
+[1.519655] (pa_warehouse_status) StdoutLine: {'line': b'running install_scripts\n'}
+[1.608015] (-) TimerEvent: {}
+[1.681001] (pa_warehouse_status) StdoutLine: {'line': b'Installing pineapple_gossip_bot script to /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/pa_warehouse_status\n'}
+[1.681935] (pa_warehouse_status) StdoutLine: {'line': b"writing list of installed files to '/home/aidan/workspace/irs_ws/build/pa_warehouse_status/install.log'\n"}
+[1.708127] (-) TimerEvent: {}
+[1.709927] (pa_warehouse_status) CommandEnded: {'returncode': 0}
+[1.717753] (pa_warehouse_status) JobEnded: {'identifier': 'pa_warehouse_status', 'rc': 0}
+[1.718802] (-) EventReactorShutdown: {}

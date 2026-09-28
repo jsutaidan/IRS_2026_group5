@@ -1,0 +1,38 @@
+[1.121s] Invoking command in '/home/aidan/workspace/irs_ws/src/IRS_2026_group5/pa_warehouse_status': PYTHONPATH=/home/aidan/workspace/irs_ws/build/pa_warehouse_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pa_warehouse_status build --build-base /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build install --record /home/aidan/workspace/irs_ws/build/pa_warehouse_status/install.log --install-scripts $base/lib/pa_warehouse_status --single-version-externally-managed install_data
+[1.386s] running egg_info
+[1.386s] creating ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info
+[1.407s] writing ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/PKG-INFO
+[1.407s] writing dependency_links to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/dependency_links.txt
+[1.408s] writing entry points to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/entry_points.txt
+[1.408s] writing requirements to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/requires.txt
+[1.408s] writing top-level names to ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/top_level.txt
+[1.408s] writing manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'
+[1.454s] reading manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'
+[1.455s] adding license file 'LICENSE'
+[1.455s] writing manifest file '../../../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'
+[1.455s] running build
+[1.455s] running build_py
+[1.455s] creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build
+[1.463s] creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib
+[1.463s] creating /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status
+[1.463s] copying pa_warehouse_status/pineapple_gossip_bot.py -> /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status
+[1.463s] copying pa_warehouse_status/__init__.py -> /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status
+[1.463s] running install
+[1.469s] running install_lib
+[1.491s] creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status
+[1.491s] copying /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status/pineapple_gossip_bot.py -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status
+[1.491s] copying /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build/lib/pa_warehouse_status/__init__.py -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status
+[1.491s] byte-compiling /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status/pineapple_gossip_bot.py to pineapple_gossip_bot.cpython-312.pyc
+[1.492s] byte-compiling /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status/__init__.py to __init__.cpython-312.pyc
+[1.492s] running install_data
+[1.493s] creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index
+[1.493s] creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index
+[1.493s] creating /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index/packages
+[1.494s] copying resource/pa_warehouse_status -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/ament_index/resource_index/packages
+[1.494s] copying package.xml -> /home/aidan/workspace/irs_ws/install/pa_warehouse_status/share/pa_warehouse_status
+[1.494s] running install_egg_info
+[1.519s] Copying ../../../build/pa_warehouse_status/pa_warehouse_status.egg-info to /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages/pa_warehouse_status-0.0.0-py3.12.egg-info
+[1.520s] running install_scripts
+[1.681s] Installing pineapple_gossip_bot script to /home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/pa_warehouse_status
+[1.682s] writing list of installed files to '/home/aidan/workspace/irs_ws/build/pa_warehouse_status/install.log'
+[1.710s] Invoked command in '/home/aidan/workspace/irs_ws/src/IRS_2026_group5/pa_warehouse_status' returned '0': PYTHONPATH=/home/aidan/workspace/irs_ws/build/pa_warehouse_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aidan/workspace/irs_ws/install/pa_warehouse_status/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pa_warehouse_status build --build-base /home/aidan/workspace/irs_ws/build/pa_warehouse_status/build install --record /home/aidan/workspace/irs_ws/build/pa_warehouse_status/install.log --install-scripts $base/lib/pa_warehouse_status --single-version-externally-managed install_data
